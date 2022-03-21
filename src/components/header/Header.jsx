@@ -3,8 +3,8 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me3.jpg'
-import HeaderSocials from './HeaderSocials'
+// import ME from '../../assets/me3.jpg'
+// import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
