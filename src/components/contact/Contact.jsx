@@ -14,8 +14,8 @@ const contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    //process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_USER_ID
-    emailjs.sendForm('process.env.REACT_APP_YOUR_SERVICE_ID', 'process.env.REACT_APP_YOUR_TEMPLATE_ID', form.current, 'process.env.REACT_APP_YOUR_USER_ID')
+    process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_USER_ID
+    //emailjs.sendForm('service_r3x4onn', 'template_9cf0vs6', form.current, 'uS07n0wcnOfcAo8GM')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -43,7 +43,7 @@ const contact = () => {
             <AiOutlineLinkedin className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>www.linkedin.com/in/joao-Giesteira</h5>
-            <a href="https://linkedin.com/in/joao-Giesteira" target='_blank'>Send a Message</a>
+            <a href="https://pt.linkedin.com/in/jo%C3%A3o-giesteira-326b7b168" target='_blank'>Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
