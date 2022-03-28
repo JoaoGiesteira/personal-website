@@ -14,8 +14,8 @@ const contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_USER_ID
-    //emailjs.sendForm('service_r3x4onn', 'template_9cf0vs6', form.current, 'uS07n0wcnOfcAo8GM')
+    //process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_USER_ID
+    emailjs.sendForm( process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_USER_ID)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
