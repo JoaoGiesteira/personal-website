@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Future Personal Projects</h3>
+          <h3>Future Personal Projects (WIP)</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/JoaoGiesteira" className='btn' target="_blank">Github</a>
             <a href="https://github.com/JoaoGiesteira" className='btn btn-primary' target="_blank">Demo</a>

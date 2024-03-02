@@ -22,7 +22,7 @@ const About = () => {
             <article className='about_card'>
               <AiOutlineTrophy className='about_icon'/>
               <h5>Experience</h5>
-              <small>3+ Years</small>
+              <small>5+ Years</small>
             </article>
             <article className='about_card'>
               <MdOutlineDriveFolderUpload className='about_icon'/>
@@ -32,7 +32,7 @@ const About = () => {
           </div>
 
           <p>
-            Proactive professional with over 3 years of experience. Knowledge in web platform development and programming. Aiming to enhance my skills to successfully fill the role of web developer.
+            Proactive professional with over 5 years of experience. Knowledge in web platform development and programming. Aiming to enhance my skills to successfully fill the role of web developer.
           </p>
 
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>

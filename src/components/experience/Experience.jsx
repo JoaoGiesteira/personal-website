@@ -54,7 +54,21 @@ const experience = () => {
               <HiOutlineBadgeCheck className='experience_icon' />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Self Teaching</small>
+                <small className='text-light'>Professional</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <HiOutlineBadgeCheck className='experience_icon' />
+              <div>
+                <h4>Angular</h4>
+                <small className='text-light'>Professional</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <HiOutlineBadgeCheck className='experience_icon' />
+              <div>
+                <h4>Taildwind</h4>
+                <small className='text-light'>Professional</small>
               </div>
             </article>
           </div>
@@ -81,7 +95,7 @@ const experience = () => {
               <HiOutlineBadgeCheck className='experience_icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Academic</small>
+                <small className='text-light'>Professional</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -94,15 +108,8 @@ const experience = () => {
             <article className='experience_details'>
               <HiOutlineBadgeCheck className='experience_icon' />
               <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Academic</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <HiOutlineBadgeCheck className='experience_icon' />
-              <div>
                 <h4>MongooDB</h4>
-                <small className='text-light'>Academic</small>
+                <small className='text-light'>Professional</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -112,7 +119,26 @@ const experience = () => {
                 <small className='text-light'>Academic</small>
               </div>
             </article>
+          </div>
+        </div>
 
+        <div className="experience_backend">
+          <h3>Development</h3>
+          <div className="experience_content">
+            <article className='experience_details'>
+              <HiOutlineBadgeCheck className='experience_icon' />
+              <div>
+                <h4>Docker</h4>
+                <small className='text-light'>Professional</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <HiOutlineBadgeCheck className='experience_icon' />
+              <div>
+                <h4>Github</h4>
+                <small className='text-light'>Professional</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
