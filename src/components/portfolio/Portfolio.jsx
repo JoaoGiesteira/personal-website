@@ -18,8 +18,8 @@ const Portfolio = () => {
           </div>
           <h3>My Portfolio in React JS</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/JoaoGiesteira/personal-website" className='btn' target="_blank">Github</a>
-            <a href="https://www.joaogiesteira.com/" className='btn btn-primary' target="_blank">Demo</a>
+            <a href="https://github.com/JoaoGiesteira/personal-website" className='btn' target="_blank" rel="noreferrer">Github</a>
+            <a href="https://www.joaogiesteira.com/" className='btn btn-primary' target="_blank" rel="noreferrer">Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -28,8 +28,8 @@ const Portfolio = () => {
           </div>
           <h3>Future Personal Projects (WIP)</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/JoaoGiesteira" className='btn' target="_blank">Github</a>
-            <a href="https://github.com/JoaoGiesteira" className='btn btn-primary' target="_blank">Demo</a>
+            <a href="https://github.com/JoaoGiesteira" className='btn' target="_blank" rel="noreferrer">Github</a>
+            <a href="https://github.com/JoaoGiesteira" className='btn btn-primary' target="_blank" rel="noreferrer">Demo</a>
           </div>
         </article>
       </div>

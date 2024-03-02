@@ -37,13 +37,13 @@ const contact = () => {
             <HiOutlineMail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>joaoantoniogiesteira@gmail.com</h5>
-            <a href="mailto:joaoantoniogiesteira@gmail.com" target='_blank'>Send a Message</a>
+            <a href="mailto:joaoantoniogiesteira@gmail.com" target='_blank' rel="noreferrer">Send a Message</a>
           </article>
           <article className="contact_option">
             <AiOutlineLinkedin className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>www.linkedin.com/in/joao-Giesteira</h5>
-            <a href="https://pt.linkedin.com/in/jo%C3%A3o-giesteira-326b7b168" target='_blank'>Send a Message</a>
+            <a href="https://pt.linkedin.com/in/jo%C3%A3o-giesteira-326b7b168" target='_blank' rel="noreferrer">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
