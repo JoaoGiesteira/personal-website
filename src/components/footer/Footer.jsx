@@ -7,7 +7,7 @@ import {AiOutlineLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>João Giesteira</a>
+      <a href="/#" className='footer_logo'>João Giesteira</a>
       <ul className='permalinks'>
         <li><a href="/#">Home</a></li>
         <li><a href="/#about">About</a></li>
